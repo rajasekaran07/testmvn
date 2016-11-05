@@ -95,14 +95,7 @@
               <source>1.8</source>
               <target>1.8</target>
               <fork>true</fork>
-              <!-- Add all the checkers you want to enable here -->
-              <annotationProcessors>
-                  <annotationProcessor>org.checkerframework.checker.nullness.NullnessChecker</annotationProcessor>
-              </annotationProcessors>
-              <compilerArgs>
-                  <!-- location of the annotated JDK, which comes from a Maven dependency -->
-                  <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
-              </compilerArgs>
+		  <executable>${JAVA_1_7_HOME}/bin/javac</executable>
           </configuration>
       </plugin>
     </plugins>
