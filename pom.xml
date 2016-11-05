@@ -23,17 +23,17 @@
     <dependency>
         <groupId>org.checkerframework</groupId>
         <artifactId>checker</artifactId>
-        <version>1.9.4</version>
+        <version>1.8.4</version>
     </dependency>
     <dependency>
         <groupId>org.checkerframework</groupId>
         <artifactId>checker-qual</artifactId>
-        <version>1.9.4</version>
+        <version>1.8.4</version>
     </dependency>
     <dependency>
         <groupId>org.checkerframework</groupId>
         <artifactId>jdk8</artifactId>
-        <version>1.9.4</version>
+        <version>1.8.4</version>
     </dependency>
   </dependencies>
   <build>
